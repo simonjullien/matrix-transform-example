@@ -93,6 +93,9 @@ define([
         },
 
         update: function(deltaTop){
+             if(!this.listImage){
+                return;
+            }
             for (var i = 0; i < this.listImage.length; i++) {
                 var $currentImage = this.listImage[i];
                 var targetScale = 1-Math.abs(((deltaTop + this.$window.height() / 4) - $currentImage.position().top)*0.0007);
