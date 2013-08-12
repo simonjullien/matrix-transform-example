@@ -1,0 +1,94 @@
+/* line 1, ../../../../scss/timeline/timeline.scss */
+.timeline-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+}
+/* line 10, ../../../../scss/timeline/timeline.scss */
+.timeline-container .moment-list {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* line 23, ../../../../scss/timeline/timeline.scss */
+.smooth-image-col {
+  display: block;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  /*image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;*/
+}
+
+/* line 34, ../../../../scss/timeline/timeline.scss */
+.timeline-scroll {
+  position: absolute;
+  width: 1px;
+  height: 8000px;
+  opacity: 0;
+}
+
+/* line 41, ../../../../scss/timeline/timeline.scss */
+.smooth-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  /*image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;*/
+}
+
+/* line 53, ../../../../scss/timeline/timeline.scss */
+.square-image-small {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  /*image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;*/
+}
+
+/* line 66, ../../../../scss/timeline/timeline.scss */
+.portrait-image-small {
+  width: 150px;
+  height: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  /*image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;*/
+}
+
+/* line 79, ../../../../scss/timeline/timeline.scss */
+.landscape-image-small {
+  width: 220px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  /*image-rendering: optimizeSpeed;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;*/
+}
